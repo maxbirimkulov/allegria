@@ -1,10 +1,13 @@
 import React from 'react';
+import Begin from "./Begin/Begin";
+import Collection from "./Collection/Collection";
 
 const Home = () => {
     return (
-        <>
-            home
-        </>
+        <main>
+            <Begin/>
+            <Collection/>
+        </main>
     );
 };
 

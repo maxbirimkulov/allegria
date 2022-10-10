@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from "./Header/Header";
+import Home from "../pages/Home/Home";
+import Footer from "./Footer/Footer";
 
 const Layout = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header/>
+            <Home/>
+            <Footer/>
+        </>
     );
 };
 
