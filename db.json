@@ -1,0 +1,21 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "title": "nike air 270",
+      "price" : 100,
+      "category" : "shoes",
+      "image": ["./catalog/shoes1.jpeg","./catalog/shoes2.jpeg","./catalog/shoes3.jpeg","./catalog/shoes4.jpeg" ],
+      "sizes": [
+        {"id":1,"size" :  40, "inStock": 3},
+        {"id":2,"size" :  41, "inStock": 4},
+        {"id":3,"size" :  42, "inStock": 5},
+        {"id":4,"size" :  43, "inStock": 6},
+        {"id":5,"size" :  44, "inStock": 7}
+      ],
+      "review" : [],
+      "brand": "nike",
+      "gender": "men"
+    }
+  ]
+}
