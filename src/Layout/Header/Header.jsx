@@ -27,9 +27,9 @@ const Header = () => {
                     <div className='header__menu'>
                         <Link className='header__menu-link' to="/catalog">{t("header.link1")}</Link>
                         <Link className='header__menu-link' to="/catalog">{t("header.link2")}</Link>
-                        <Link className='header__menu-link' to="/about">О нас</Link>
+                        <Link className='header__menu-link' to="/about">{t("header.link3")}</Link>
                         <label htmlFor="" className='header__search'>
-                            <span className='header__search-text'>{t("header.link3")}</span>
+                            <span className='header__search-text'>{t("header.link4")}</span>
                             <input className='header__search-field' type="text"/>
                         </label>
                     </div>

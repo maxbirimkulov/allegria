@@ -1,13 +1,17 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
+
 
 const Collection = () => {
+
+    const {t} = useTranslation()
+
     return (
         <section className="collection">
             <div className="collection__content">
                 <div className="collection__left">
                     <h2 className="collection__left-title">
-                        new
-                        arrival
+                        {t("collection.title")}
                     </h2>
                     <p className="collection__left-desc">
                         Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem

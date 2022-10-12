@@ -1,12 +1,16 @@
 import React from 'react';
 import card1 from '../../../assets/popular/popular1.png'
+import {useTranslation} from "react-i18next";
 
 const Popular = () => {
+
+    const {t} = useTranslation()
+
     return (
         <section className="popular">
             <div className="container-small">
                 <h2 className="popular__title">
-                    Популярное
+                    {t("popular.title")}
                 </h2>
                 <div className="popular__row">
                     <div className="popular__card">

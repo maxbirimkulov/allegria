@@ -2,10 +2,29 @@
   "header": {
     "link1": "Women",
     "link2": "Men",
-    "link3": "Search"
+    "link3": "About",
+    "link4": "Search"
   },
   "begin" : {
     "title": "Brand",
     "subtitle": "Look collection"
+  },
+  "collection": {
+    "title": "NEW ARRIVAL",
+    "link": "Look collection"
+  },
+  "popular": {
+    "title": "Populars"
+  },
+  "about": {
+    "title": "About"
+  },
+  "footer": {
+    "title": "STAY UPDATED",
+    "link1": "About",
+    "link2": "Common Questions",
+    "link3": "Brands",
+    "text1": "All rights reserved",
+    "text2": "Design and development:"
   }
 }
