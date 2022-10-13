@@ -18,7 +18,7 @@ const Collection = () => {
                         ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip
                     </p>
                     <a href="#" className="collection__left-link">
-                        Смотреть коллекцию
+                        {t("collection.link")}
                     </a>
                 </div>
                 <div className="collection__right">

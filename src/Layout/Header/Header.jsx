@@ -4,7 +4,11 @@ import {useTranslation} from "react-i18next";
 
 const Header = () => {
 
-    const {t} = useTranslation()
+    const {t, i18n} = useTranslation()
+
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
+    };
 
     return (
         <header className='header'>
@@ -35,8 +39,8 @@ const Header = () => {
                     </div>
                     <div className='header__right'>
                         <div className='header__lang'>
-                            <a className='header__lang-link' href="">RU</a>
-                            <a className='header__lang-link' href="">EN</a>
+                            <p className='header__lang-link' style={{color: i18n.language === 'ru' ? '#E64926' : ''}} onClick={() => changeLanguage('ru')}>RU</p>
+                            <p className='header__lang-link' style={{color: i18n.language === 'en' ? '#E64926' : ''}} onClick={() => changeLanguage('en')}>EN</p>
                         </div>
                         <div className='header__icons'>
                             <a href='' className='header__icons-link'>
