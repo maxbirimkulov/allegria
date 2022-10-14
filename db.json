@@ -419,7 +419,7 @@
       "title": "Classic Tshort",
       "price": 17,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort1.jpg",
         "./catalog/Tshorts/tshort2.jpeg",
         "./catalog/Tshorts/tshort3.jpeg"
@@ -460,7 +460,7 @@
       "title": "Polo",
       "price": 15,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort4.jpg",
         "./catalog/Tshorts/tshort5.jpeg",
         "./catalog/Tshorts/tshort6.jpeg"
@@ -501,7 +501,7 @@
       "title": "Lacoste",
       "price": 20,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort7.jpg",
         "./catalog/Tshorts/tshort8.jpeg",
         "./catalog/Tshorts/tshort9.jpeg"
@@ -542,7 +542,7 @@
       "title": "DG",
       "price": 18,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort10.jpg",
         "./catalog/Tshorts/tshort11.jpeg",
         "./catalog/Tshorts/tshort12.jpeg"
@@ -583,7 +583,7 @@
       "title": "Hugo Boss",
       "price": 10,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort13.jpg",
         "./catalog/Tshorts/tshort14.jpeg",
         "./catalog/Tshorts/tshort15.jpeg"
@@ -624,7 +624,7 @@
       "title": "Celine",
       "price": 11,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort16.jpg",
         "./catalog/Tshorts/tshort17.jpeg",
         "./catalog/Tshorts/tshort18.jpeg"
@@ -660,7 +660,7 @@
       "title": "Balenciaga",
       "price": 9,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort19.jpg",
         "./catalog/Tshorts/tshort20.jpeg",
         "./catalog/Tshorts/tshort21.jpeg"
@@ -696,7 +696,7 @@
       "title": "Loewe",
       "price": 8,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort22.jpg",
         "./catalog/Tshorts/tshort23.jpeg",
         "./catalog/Tshorts/tshort24.jpeg"
@@ -732,7 +732,7 @@
       "title": "Prada",
       "price": 11,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort25.jpg",
         "./catalog/Tshorts/tshort26.jpeg",
         "./catalog/Tshorts/tshort27.jpeg"
@@ -768,7 +768,7 @@
       "title": "TB",
       "price": 8,
       "category": "t-short",
-      "image": [
+      "img": [
         "./catalog/Tshorts/tshort28.jpg",
         "./catalog/Tshorts/tshort29.jpeg",
         "./catalog/Tshorts/tshort30.jpeg"
@@ -804,7 +804,7 @@
       "title": "Pant ZARA",
       "price": 80,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant1.jpg",
         "./catalog/pant/pant2.jpg",
         "./catalog/pant/pant3.jpg",
@@ -846,7 +846,7 @@
       "title": "Levis Jeans",
       "price": 105,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant5.jpg",
         "./catalog/pant/pant6.jpg",
         "./catalog/pant/pant7.jpg",
@@ -888,7 +888,7 @@
       "title": "Jogers",
       "price": 90,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant9.jpg",
         "./catalog/pant/pant10.jpg",
         "./catalog/pant/pant11.jpg",
@@ -930,7 +930,7 @@
       "title": "Classic Pant",
       "price": 100,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant13.jpg",
         "./catalog/pant/pant14.jpg",
         "./catalog/pant/pant15.jpg",
@@ -972,7 +972,7 @@
       "title": "Classic Levis",
       "price": 110,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant17.jpg",
         "./catalog/pant/pant18.jpg",
         "./catalog/pant/pant19.jpg",
@@ -1014,7 +1014,7 @@
       "title": "Zara business",
       "price": 80,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant21.jpg",
         "./catalog/pant/pant22.jpg",
         "./catalog/pant/pant23.jpg",
@@ -1053,7 +1053,7 @@
       "title": "Levis Fly",
       "price": 120,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant25.jpg",
         "./catalog/pant/pant26.jpg",
         "./catalog/pant/pant27.jpg",
@@ -1092,7 +1092,7 @@
       "title": "Zara red",
       "price": 140,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant29.jpg",
         "./catalog/pant/pant30.jpg",
         "./catalog/pant/pant31.jpg",
@@ -1131,7 +1131,7 @@
       "title": "Zara leather",
       "price": 140,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant33.jpg",
         "./catalog/pant/pant34.jpg",
         "./catalog/pant/pant35.jpg",
@@ -1170,7 +1170,7 @@
       "title": "Levis weekend",
       "price": 140,
       "category": "pants",
-      "image": [
+      "img": [
         "./catalog/pant/pant37.jpg",
         "./catalog/pant/pant38.jpg",
         "./catalog/pant/pant39.jpg",

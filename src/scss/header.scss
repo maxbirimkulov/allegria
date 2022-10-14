@@ -1,5 +1,6 @@
 .header{
  padding: 22px 0;
+ border-bottom: 1px solid grey;
  &__nav{
   display: flex;
   justify-content: space-between;
@@ -52,5 +53,23 @@
   text-transform: uppercase;
   color: #0F303F;
   cursor: pointer;
+  transition: .5s;
+  position: relative;
+  &.active, &:hover{
+   color: #E64926;
+   transition: .5s;
+   &::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #E64926;
+    left: 50%;
+    top: 45px;
+    transform: translateX(-50%);
+   }
+  }
+
+
  }
 }
