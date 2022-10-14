@@ -27,7 +27,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="footer__item">
-                            <Link className="footer__link" >
+                            <Link className="footer__link" to='questions'>
                                 {t("footer.link2")}
                             </Link>
                         </li>

@@ -8,6 +8,7 @@ import {Route, Routes} from 'react-router-dom'
 import Custom from "./pages/Custom/Custom";
 import NotFound from "./pages/NotFound/NotFound";
 import './i18n'
+import Questions from "./pages/Questions/Questions";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path='' element={<Home/>}/>
                 <Route path='about' element={<About/>}/>
                 <Route path='catalog' element={<Catalog/>}/>
+                <Route path='questions' element={<Questions/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Route>
             <Route path='/custom' element={<Custom/>}/>

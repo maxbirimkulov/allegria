@@ -32,7 +32,7 @@ const Context = (props) => {
         category,
         changeCategory,
         changeGender,
-        getProducts
+        getProducts,
     }
 
     return <CustomContext.Provider value={value}>
