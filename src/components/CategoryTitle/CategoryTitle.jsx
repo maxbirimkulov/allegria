@@ -6,7 +6,7 @@ const CategoryTitle = () => {
     return (
         <span>
             {category === 't-short' && 'Футболки'}
-            {category === 'sweatshirt' && 'Кофты'}
+            {category === 'sweatshirts' && 'Кофты'}
             {category === 'pants' && 'Штаны'}
             {category === 'shoes' && 'Обувь'}
         </span>

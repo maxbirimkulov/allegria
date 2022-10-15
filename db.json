@@ -14,7 +14,7 @@
         {
           "id": 1,
           "size": 38,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 2,
@@ -61,7 +61,7 @@
         {
           "id": 2,
           "size": 39,
-          "inStock": 4
+          "inStock": 0
         },
         {
           "id": 3,
@@ -107,7 +107,7 @@
         {
           "id": 3,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,
@@ -153,7 +153,7 @@
         {
           "id": 4,
           "size": 41,
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 5,
@@ -194,7 +194,7 @@
         {
           "id": 4,
           "size": 41,
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 5,
@@ -230,7 +230,7 @@
         {
           "id": 3,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,
@@ -272,7 +272,7 @@
         {
           "id": 3,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,
@@ -324,7 +324,7 @@
         {
           "id": 5,
           "size": 42,
-          "inStock": 5
+          "inStock": 0
         }
       ],
       "review": [],
@@ -351,7 +351,7 @@
         {
           "id": 2,
           "size": 39,
-          "inStock": 4
+          "inStock": 0
         },
         {
           "id": 3,
@@ -387,7 +387,7 @@
         {
           "id": 1,
           "size": 38,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 2,
@@ -427,28 +427,28 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 4
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 6
+          "size": "L",
+          "inStock": 0
         },
         {
           "id": 4,
-          "size": "xl",
-          "inStock": 8
+          "size": "XL",
+          "inStock": 2
         },
         {
           "id": 5,
-          "size": "xxl",
-          "inStock": 7
+          "size": "XXL",
+          "inStock": 0
         }
       ],
       "review": [],
@@ -468,28 +468,28 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 4
+          "size": "S",
+          "inStock": 0
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 6
+          "size": "L",
+          "inStock": 1
         },
         {
           "id": 4,
-          "size": "xl",
-          "inStock": 8
+          "size": "XL",
+          "inStock": 2
         },
         {
           "id": 5,
-          "size": "xxl",
-          "inStock": 7
+          "size": "XXL",
+          "inStock": 5
         }
       ],
       "review": [],
@@ -509,28 +509,28 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 4
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 6
+          "size": "L",
+          "inStock": 0
         },
         {
           "id": 4,
-          "size": "xl",
-          "inStock": 8
+          "size": "XL",
+          "inStock": 2
         },
         {
           "id": 5,
-          "size": "xxl",
-          "inStock": 7
+          "size": "XXL",
+          "inStock": 5
         }
       ],
       "review": [],
@@ -550,28 +550,28 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 0
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 2
         },
         {
           "id": 4,
-          "size": "xl",
-          "inStock": 5
+          "size": "XL",
+          "inStock": 2
         },
         {
           "id": 5,
-          "size": "xxl",
-          "inStock": 7
+          "size": "XXL",
+          "inStock": 5
         }
       ],
       "review": [],
@@ -591,28 +591,28 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 0
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 3
         },
         {
           "id": 4,
-          "size": "xl",
-          "inStock": 5
+          "size": "XL",
+          "inStock": 2
         },
         {
           "id": 5,
-          "size": "xxl",
-          "inStock": 7
+          "size": "XXL",
+          "inStock": 5
         }
       ],
       "review": [],
@@ -632,22 +632,27 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 0
         },
         {
           "id": 4,
-          "size": "xl",
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
           "inStock": 5
         }
       ],
@@ -668,22 +673,27 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 3
         },
         {
           "id": 4,
-          "size": "xl",
+          "size": "XL",
+          "inStock": 0
+        },
+        {
+          "id": 5,
+          "size": "XXL",
           "inStock": 5
         }
       ],
@@ -704,22 +714,27 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 0
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 4
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 2
         },
         {
           "id": 4,
-          "size": "xl",
+          "size": "XL",
+          "inStock": 0
+        },
+        {
+          "id": 5,
+          "size": "XXL",
           "inStock": 5
         }
       ],
@@ -740,22 +755,27 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 0
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 2
         },
         {
           "id": 4,
-          "size": "xl",
+          "size": "XL",
+          "inStock": 0
+        },
+        {
+          "id": 5,
+          "size": "XXL",
           "inStock": 5
         }
       ],
@@ -776,22 +796,27 @@
       "sizes": [
         {
           "id": 1,
-          "size": "s",
-          "inStock": 8
+          "size": "S",
+          "inStock": 3
         },
         {
           "id": 2,
-          "size": "m",
-          "inStock": 5
+          "size": "M",
+          "inStock": 0
         },
         {
           "id": 3,
-          "size": "l",
-          "inStock": 9
+          "size": "L",
+          "inStock": 3
         },
         {
           "id": 4,
-          "size": "xl",
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
           "inStock": 5
         }
       ],
@@ -829,7 +854,7 @@
         {
           "id": 4,
           "size": 40,
-          "inStock": 9
+          "inStock": 0
         },
         {
           "id": 5,
@@ -871,7 +896,7 @@
         {
           "id": 4,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 5,
@@ -908,7 +933,7 @@
         {
           "id": 3,
           "size": 38,
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 4,
@@ -945,12 +970,12 @@
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 0
         },
         {
           "id": 3,
           "size": 38,
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 4,
@@ -982,12 +1007,12 @@
         {
           "id": 1,
           "size": 34,
-          "inStock": 7
+          "inStock": 0
         },
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 0
         },
         {
           "id": 3,
@@ -1026,7 +1051,7 @@
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 0
         },
         {
           "id": 3,
@@ -1041,7 +1066,7 @@
         {
           "id": 5,
           "size": 42,
-          "inStock": 9
+          "inStock": 0
         }
       ],
       "review": [],
@@ -1065,7 +1090,7 @@
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 0
         },
         {
           "id": 3,
@@ -1075,7 +1100,7 @@
         {
           "id": 4,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 5,
@@ -1099,17 +1124,17 @@
         "./catalog/pant/pant32.jpg"
       ],
       "sizes": [
-        {"id": 1, "size": 34, "inStock": 7
+        {"id": 1, "size": 34, "inStock": 0
         },
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 4
         },
         {
           "id": 3,
           "size": 38,
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 4,
@@ -1143,7 +1168,7 @@
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 2
         },
         {
           "id": 3,
@@ -1153,7 +1178,7 @@
         {
           "id": 4,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 5,
@@ -1182,7 +1207,7 @@
         {
           "id": 2,
           "size": 36,
-          "inStock": 5
+          "inStock": 4
         },
         {
           "id": 3,
@@ -1192,7 +1217,7 @@
         {
           "id": 4,
           "size": 40,
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 5,
@@ -1228,7 +1253,7 @@
         {
           "id": 3,
           "size": "L",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,
@@ -1238,7 +1263,7 @@
         {
           "id": 5,
           "size": "XXL",
-          "inStock": 5
+          "inStock": 0
         }
       ],
       "review": [],
@@ -1264,12 +1289,12 @@
         {
           "id": 2,
           "size": "M",
-          "inStock": 4
+          "inStock": 0
         },
         {
           "id": 3,
           "size": "L",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,
@@ -1305,7 +1330,7 @@
         {
           "id": 2,
           "size": "M",
-          "inStock": 4
+          "inStock": 0
         },
         {
           "id": 3,
@@ -1320,7 +1345,7 @@
         {
           "id": 5,
           "size": "XXL",
-          "inStock": 5
+          "inStock": 0
         }
       ],
       "review": [],
@@ -1346,7 +1371,7 @@
         {
           "id": 2,
           "size": "M",
-          "inStock": 4
+          "inStock": 0
         },
         {
           "id": 3,
@@ -1356,7 +1381,7 @@
         {
           "id": 4,
           "size": "XL",
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 5,
@@ -1382,7 +1407,7 @@
         {
           "id": 1,
           "size": "S",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 2,
@@ -1397,7 +1422,7 @@
         {
           "id": 4,
           "size": "XL",
-          "inStock": 2
+          "inStock": 0
         },
         {
           "id": 5,
@@ -1423,7 +1448,7 @@
         {
           "id": 1,
           "size": "S",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 2,
@@ -1443,7 +1468,7 @@
         {
           "id": 5,
           "size": "XXL",
-          "inStock": 5
+          "inStock": 0
         }
       ],
       "review": [],
@@ -1464,7 +1489,7 @@
         {
           "id": 1,
           "size": "S",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 2,
@@ -1474,7 +1499,7 @@
         {
           "id": 3,
           "size": "L",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,
@@ -1505,7 +1530,7 @@
         {
           "id": 1,
           "size": "S",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 2,
@@ -1566,7 +1591,7 @@
         {
           "id": 5,
           "size": "XXL",
-          "inStock": 5
+          "inStock": 0
         }
       ],
       "review": [],
@@ -1597,7 +1622,7 @@
         {
           "id": 3,
           "size": "L",
-          "inStock": 3
+          "inStock": 0
         },
         {
           "id": 4,

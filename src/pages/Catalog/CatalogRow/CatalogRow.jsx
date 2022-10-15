@@ -5,13 +5,21 @@ import {CustomContext} from "../../../utils/context";
 
 const CatalogRow = () => {
 
-    const {products} = useContext(CustomContext)
+    const {products,size} = useContext(CustomContext)
 
     const {i, i18n} = useTranslation()
+
+
+    if (products.error.length) {
+        return <h2>{products.error.message}</h2>
+    }
+
     return (
         <div className='catalog__row'>
             {
-                products.data.map((item) => (
+               products.data && products.data.filter((item) => {
+                       return size ? item.sizes.find((el) =>  el.size == size ).inStock : item
+                }).map((item) => (
                     <div key={item.id} className="catalog__card">
                         <img className='catalog__card-img' src={`../${item.img[0]}`} alt={item.title}/>
                         <h3 className='catalog__card-title'>{item.title}</h3>

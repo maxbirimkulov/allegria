@@ -4,14 +4,15 @@ import BreadCrumbs from "./BreadCrumbs/BreadCrumbs";
 import SideBar from "./SideBar/SideBar";
 import CategoryTitle from "../../components/CategoryTitle/CategoryTitle";
 import CatalogRow from "./CatalogRow/CatalogRow";
+import CatalogFilter from "./CatalogFilter/CatalogFilter";
 
 const Catalog = () => {
 
-    const {category, getProducts} = useContext(CustomContext)
+    const {category, getProducts, gender,price} = useContext(CustomContext)
 
     useEffect(() => {
         getProducts()
-    },[])
+    },[gender,category,price])
 
     return (
         <section className='catalog'>
@@ -23,6 +24,9 @@ const Catalog = () => {
                         <h2 className='catalog__content-title'>
                             <CategoryTitle/>
                         </h2>
+
+                        <CatalogFilter/>
+
                         <CatalogRow/>
                     </div>
                 </div>
