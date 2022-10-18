@@ -9,10 +9,15 @@ import {CustomContext} from "../../../utils/context";
 
  function SelectSize() {
 
-    const {category, size, setSize} = useContext(CustomContext)
+    const {category, size, setSize,setProducts, products,setPage} = useContext(CustomContext)
 
     const handleChange = (event) => {
         setSize(event.target.value);
+        setProducts({...products, dataLength: products.data.filter((item) => {
+                return event.target.value ? item.sizes.find((el) =>  el.size == event.target.value ).inStock : item
+            }).length
+        })
+        setPage(1)
     };
 
     return (

@@ -8,11 +8,11 @@ import CatalogFilter from "./CatalogFilter/CatalogFilter";
 
 const Catalog = () => {
 
-    const {category, getProducts, gender,price} = useContext(CustomContext)
+    const {category, getProducts, gender,price, brand} = useContext(CustomContext)
 
     useEffect(() => {
         getProducts()
-    },[gender,category,price])
+    },[gender,category,price, brand])
 
     return (
         <section className='catalog'>

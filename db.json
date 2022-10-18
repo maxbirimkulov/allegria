@@ -4014,6 +4014,56 @@
       "brand": "Nike",
       "gender": "woman"
     }
+  ],
+  "brands" : [
+    {
+      "id": 1,
+      "category": "shoes",
+      "gender": "men",
+      "brand": ["Nike", "Lacoste", "New Balance" ]
+    },
+    {
+      "id": 2,
+      "category": "shoes",
+      "gender": "woman",
+      "brand": ["Nike", "DG","Adidas" ]
+    },
+    {
+      "id": 3,
+      "category": "t-short",
+      "gender": "men",
+      "brand": ["Polo", "Lacoste", "Hugo Boss", "DG", "Nike","Potter" ]
+    },
+    {
+      "id": 4,
+      "category": "t-short",
+      "gender": "woman",
+      "brand": [ "Nike","Celine","Balenciaga","Loewe","TB","Prada" ]
+    },
+    {
+      "id": 5,
+      "category": "pants",
+      "gender": "men",
+      "brand": ["zara", "levis",  "Nike" ]
+    },
+    {
+      "id": 6,
+      "category": "pants",
+      "gender": "woman",
+      "brand": ["zara", "levis",  "Nike" ]
+    },
+    {
+      "id": 7,
+      "category": "sweatshirts",
+      "gender": "men",
+      "brand": ["NASA", "MOST",  "Gucci", "Nike" ]
+    },
+    {
+      "id": 8,
+      "category": "sweatshirts",
+      "gender": "woman",
+      "brand": ["A&J",   "Nike" ]
+    }
   ]
 }
 

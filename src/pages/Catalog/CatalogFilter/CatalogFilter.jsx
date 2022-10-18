@@ -2,6 +2,7 @@ import React from 'react';
 import BasicSelect from "./Select";
 import SelectPrice from "./SelectPrice";
 import SelectSize from "./SelectSize";
+import SelectBrand from "./SelectBrand";
 
 
 const CatalogFilter = () => {
@@ -17,7 +18,7 @@ const CatalogFilter = () => {
                 <BasicSelect/>
             </div>
             <div className='filter__select'>
-                <BasicSelect/>
+                <SelectBrand/>
             </div>
         </div>
     );
