@@ -3539,6 +3539,481 @@
       "review": [],
       "brand": "Nike",
       "gender": "woman"
+    },
+    {
+      "id": 87,
+      "title": "Nike Solo Swoosh Black",
+      "price": 150,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike1.webp",
+        "./catalog/sweatshirts/nike2.webp",
+        "./catalog/sweatshirts/nike3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 2
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 88,
+      "title": "Nike Solo Swoosh Gray",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike4.webp",
+        "./catalog/sweatshirts/nike5.webp",
+        "./catalog/sweatshirts/nike6.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 2
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 89,
+      "title": "Nike Solo Swoosh Aqua",
+      "price": 350,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike7.webp",
+        "./catalog/sweatshirts/nike8.webp",
+        "./catalog/sweatshirts/nike9.webp"
+      ],
+      "sizes": [
+        {"id": 1, "size": "S", "inStock": 3},
+        {"id": 2, "size": "M", "inStock": 2},
+        {"id": 3, "size": "L", "inStock": 4},
+        {"id": 4, "size": "XL", "inStock": 2},
+        {"id": 5, "size": "XXL", "inStock": 0}
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 90,
+      "title": "Nike Solo Swoosh Green",
+      "price": 330,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike10.webp",
+        "./catalog/sweatshirts/nike11.webp",
+        "./catalog/sweatshirts/nike12.webp"
+      ],
+      "sizes": [
+        {"id": 1, "size": "S", "inStock": 5},
+        {"id": 2, "size": "M", "inStock": 2},
+        {"id": 3, "size": "L", "inStock": 0},
+        {"id": 4, "size": "XL", "inStock": 2},
+        {"id": 5, "size": "XXL", "inStock": 5}
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 91,
+      "title": "Nike Solo Swoosh White",
+      "price": 88,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike13.webp",
+        "./catalog/sweatshirts/nike14.webp",
+        "./catalog/sweatshirts/nike15.webp"
+      ],
+      "sizes": [
+        {"id": 1, "size": "S", "inStock": 5},
+        {"id": 2, "size": "M", "inStock": 2},
+        {"id": 3, "size": "L", "inStock": 4},
+        {"id": 4, "size": "XL", "inStock": 2},
+        {"id": 5, "size": "XXL", "inStock": 0}
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 92,
+      "title": "Nike Solo Swoosh Blue",
+      "price": 150,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike16.webp",
+        "./catalog/sweatshirts/nike17.webp",
+        "./catalog/sweatshirts/nike18.webp"
+      ],
+      "sizes": [
+        {"id": 1, "size": "S", "inStock": 5},
+        {"id": 2, "size": "M", "inStock": 2},
+        {"id": 3, "size": "L", "inStock": 4},
+        {"id": 4, "size": "XL", "inStock": 2},
+        {"id": 5, "size": "XXL", "inStock": 0}
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 93,
+      "title": "Nike Solo Swoosh Pink",
+      "price": 150,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/nike19.webp",
+        "./catalog/sweatshirts/nike20.webp",
+        "./catalog/sweatshirts/nike21.webp"
+      ],
+      "sizes": [
+        {"id": 1, "size": "S", "inStock": 5},
+        {"id": 2, "size": "M", "inStock": 2},
+        {"id": 3, "size": "L", "inStock": 4},
+        {"id": 4, "size": "XL", "inStock": 2},
+        {"id": 5, "size": "XXL", "inStock": 0}
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "men"
+    },
+    {
+      "id": 94,
+      "title": "Nike Green",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/1_1.webp",
+        "./catalog/sweatshirts/1_1.webp",
+        "./catalog/sweatshirts/1_1.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 0
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 3
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 0
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
+    },
+    {
+      "id": 95,
+      "title": "Nike Pink",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/2_1.webp",
+        "./catalog/sweatshirts/2_2.webp",
+        "./catalog/sweatshirts/2_3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 0
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 5
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
+    },
+    {
+      "id": 96,
+      "title": "Nike white",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/3_1.webp",
+        "./catalog/sweatshirts/3_2.webp",
+        "./catalog/sweatshirts/3_3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 0
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 3
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 5
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
+    },
+    {
+      "id": 97,
+      "title": "Nike black",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/4_1.webp",
+        "./catalog/sweatshirts/4_2.webp",
+        "./catalog/sweatshirts/4_3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 3
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 0
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
+    },
+    {
+      "id": 98,
+      "title": "Nike Beige",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/5_1.webp",
+        "./catalog/sweatshirts/5_2.webp",
+        "./catalog/sweatshirts/5_3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 5
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 5
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
+    },
+    {
+      "id": 99,
+      "title": "Nike Dark",
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/6_1.webp",
+        "./catalog/sweatshirts/6_2.webp",
+        "./catalog/sweatshirts/6_3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 5
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
+    },
+    {
+      "id": 100,
+      "title": "Nike Green-s" ,
+      "price": 250,
+      "category": "sweatshirts",
+      "img": [
+        "./catalog/sweatshirts/7_1.webp",
+        "./catalog/sweatshirts/7_2.webp",
+        "./catalog/sweatshirts/7_3.webp"
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 4
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 5
+        }
+      ],
+      "review": [],
+      "brand": "Nike",
+      "gender": "woman"
     }
   ]
 }
+
