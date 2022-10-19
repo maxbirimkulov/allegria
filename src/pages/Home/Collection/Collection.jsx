@@ -10,9 +10,8 @@ const Collection = () => {
         <section className="collection">
             <div className="collection__content">
                 <div className="collection__left">
-                    <h2 className="collection__left-title">
-                        {t("collection.title")}
-                    </h2>
+                    <h2 className="collection__left-title" dangerouslySetInnerHTML={{__html: t("collection.title")}}/>
+
                     <p className="collection__left-desc">
                         Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem
                         ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip

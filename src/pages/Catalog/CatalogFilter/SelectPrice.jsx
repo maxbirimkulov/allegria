@@ -5,11 +5,12 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import {CustomContext} from "../../../utils/context";
+import {useTranslation} from "react-i18next";
 
 function SelectPrice() {
 
     const {price, setPrice} = useContext(CustomContext)
-
+    const {t} = useTranslation()
     const handleChange = (event) => {
         setPrice(event.target.value);
     };
@@ -17,17 +18,17 @@ function SelectPrice() {
     return (
         <Box sx={{ minWidth: 120 }}>
             <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">Цена</InputLabel>
+                <InputLabel id="demo-simple-select-label">{t("catalog.price")}</InputLabel>
                 <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
                     value={price}
-                    label="Цена"
+                    label={t("catalog.price")}
                     onChange={handleChange}
                 >
-                    <MenuItem value='asc'>По возрастанию</MenuItem>
-                    <MenuItem value='desc'>По убыванию</MenuItem>
-                    <MenuItem value=''>Сбросить</MenuItem>
+                    <MenuItem value='asc'>{t("catalog.ascending")}</MenuItem>
+                    <MenuItem value='desc'>{t("catalog.descending")}</MenuItem>
+                    <MenuItem value=''>{t("catalog.reset")}</MenuItem>
 
                 </Select>
             </FormControl>

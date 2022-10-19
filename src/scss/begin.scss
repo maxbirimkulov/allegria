@@ -5,6 +5,11 @@
     text-align: center;
     position: relative;
   }
+  &__contentSecond {
+    width: 30%;
+    text-align: center;
+    background: #0F303F;
+  }
   &__img {
     position: absolute;
     top: 0;
@@ -13,6 +18,15 @@
     height: 100%;
     z-index: -1;
   }
+  &__imgSecond {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
   &__title {
     font-weight: 500;
     font-size: 45px;

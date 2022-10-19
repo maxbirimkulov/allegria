@@ -6,10 +6,13 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import {useContext} from "react";
 import {CustomContext} from "../../../utils/context";
+import {useTranslation} from "react-i18next";
 
- function SelectSize() {
+function SelectSize() {
 
     const {category, size, setSize,setProducts, products,setPage} = useContext(CustomContext)
+
+    const {t} = useTranslation()
 
     const handleChange = (event) => {
         setSize(event.target.value);
@@ -20,17 +23,18 @@ import {CustomContext} from "../../../utils/context";
         setPage(1)
     };
 
+
     return (
         <Box sx={{ minWidth: 120 }}>
             <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">Размер</InputLabel>
+                <InputLabel id="demo-simple-select-label">{t("catalog.size")}</InputLabel>
                     {
                        category === 'shoes' ?
                            <Select
                                labelId="demo-simple-select-label"
                                id="demo-simple-select"
                                value={size}
-                               label="Размер"
+                               label={t("catalog.size")}
                                onChange={handleChange}
                            >
                                <MenuItem value={38}>38</MenuItem>
@@ -38,14 +42,14 @@ import {CustomContext} from "../../../utils/context";
                                <MenuItem value={40}>40</MenuItem>
                                <MenuItem value={41}>41</MenuItem>
                                <MenuItem value={42}>42</MenuItem>
-                               <MenuItem value=''>Сбросить</MenuItem>
+                               <MenuItem value=''>{t("catalog.reset")}</MenuItem>
                            </Select>
                        : category === 't-short' || category === 'sweatshirts' ?
                                <Select
                                    labelId="demo-simple-select-label"
                                    id="demo-simple-select"
                                    value={size}
-                                   label="Размер"
+                                   label={t("catalog.size")}
                                    onChange={handleChange}
                                >
                                    <MenuItem value='S'>S</MenuItem>
@@ -53,14 +57,14 @@ import {CustomContext} from "../../../utils/context";
                                    <MenuItem value='L'>L</MenuItem>
                                    <MenuItem value='XL'>XL</MenuItem>
                                    <MenuItem value='XXL'>XXL</MenuItem>
-                                   <MenuItem value=''>Сбросить</MenuItem>
+                                   <MenuItem value=''>{t("catalog.reset")}</MenuItem>
                                </Select>
                        : category === 'pants'  ?
                                    <Select
                                        labelId="demo-simple-select-label"
                                        id="demo-simple-select"
                                        value={size}
-                                       label="Размер"
+                                       label={t("catalog.size")}
                                        onChange={handleChange}
                                    >
                                     <MenuItem value={34}>34</MenuItem>
@@ -68,7 +72,7 @@ import {CustomContext} from "../../../utils/context";
                                     <MenuItem value={38}>38</MenuItem>
                                     <MenuItem value={40}>40</MenuItem>
                                     <MenuItem value={42}>42</MenuItem>
-                                    <MenuItem value=''>Сбросить</MenuItem>
+                                    <MenuItem value=''>{t("catalog.reset")}</MenuItem>
                                 </Select>  : ''
                     }
 
