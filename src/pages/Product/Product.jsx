@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import {useParams} from "react-router-dom";
+import ProductSlide from "./ProductSlide/ProductSlide";
+import ProductInfo from "./ProductInfo/ProductInfo";
+import BreadCrumbs from "../Catalog/BreadCrumbs/BreadCrumbs";
 
 const Product = () => {
 
@@ -18,11 +21,19 @@ const Product = () => {
         return <h2>...Loading</h2>
     }
     return (
-        <div>
-            Product
-           <h2> {product.title}</h2>
-            <img src={`.${product.img[0]}`} alt=""/>
-        </div>
+        <section className="product">
+            <div className="container">
+                <BreadCrumbs/>
+            </div>
+            <div className="container-small">
+
+                <div className="product__row">
+                    <ProductSlide product={product}/>
+                    <ProductInfo product={product}/>
+                </div>
+            </div>
+
+        </section>
     );
 };
 
