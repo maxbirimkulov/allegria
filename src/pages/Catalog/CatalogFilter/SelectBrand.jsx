@@ -10,11 +10,11 @@ import {useTranslation} from "react-i18next";
 
  function SelectBrand() {
 
-     const {brand, setBrand, brands} = useContext(CustomContext)
+     const { dispatch,state} = useContext(CustomContext)
      const {t} = useTranslation()
 
     const handleChange = (event) => {
-        setBrand(event.target.value);
+        dispatch({type: 'change_brand', payload: event.target.value})
     };
 
     return (
@@ -24,12 +24,12 @@ import {useTranslation} from "react-i18next";
                 <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
-                    value={brand}
+                    value={state.catalog.brand}
                     label={t("catalog.brand")}
                     onChange={handleChange}
                 >
                     {
-                        brands.map((item) => (
+                        state.catalog.brands.map((item) => (
                             <MenuItem key={item} value={item}>{item}</MenuItem>
                         ))
                     }

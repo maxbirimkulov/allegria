@@ -6,14 +6,14 @@ import {useTranslation} from "react-i18next";
 
 const SideBar = () => {
 
-    const {gender, changeGender} = useContext(CustomContext)
+    const { changeGender,state} = useContext(CustomContext)
     const {t} = useTranslation()
 
     return (
         <aside className='sideBar'>
             <div className='sideBar__lang'>
-                <p onClick={() => changeGender('woman')} className={`sideBar__lang-item ${gender === 'woman' ? 'active' : ''}`}>{t("catalog.aside1")}</p>
-                <p  onClick={() => changeGender('men')} className={`sideBar__lang-item ${gender === 'men' ? 'active' : ''}`}>{t("catalog.aside2")}</p>
+                <p onClick={() => changeGender('woman')} className={`sideBar__lang-item ${state.catalog.gender === 'woman' ? 'active' : ''}`}>{t("catalog.aside1")}</p>
+                <p  onClick={() => changeGender('men')} className={`sideBar__lang-item ${state.catalog.gender === 'men' ? 'active' : ''}`}>{t("catalog.aside2")}</p>
             </div>
             <ul className='sideBar__menu'>
                 <SideBarItem value={'t-short'} text={`${t("catalog.aside3")}`}/>

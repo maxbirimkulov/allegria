@@ -6,15 +6,15 @@ import {useTranslation} from "react-i18next";
 
 const BreadCrumbs = () => {
 
-    const {gender} = useContext(CustomContext)
+    const {state} = useContext(CustomContext)
     const {t} = useTranslation()
 
     return (
         <ul className='breadCrumbs'>
             <li className='breadCrumbs__item'>{t("catalog.menu1")}</li>
             <li className='breadCrumbs__item'>
-                {gender === 'woman' && `${t("catalog.aside1")}`}
-                {gender === 'men' && `${t("catalog.aside2")}`}
+                {state.catalog.gender === 'woman' && `${t("catalog.aside1")}`}
+                {state.catalog.gender === 'men' && `${t("catalog.aside2")}`}
             </li>
             <li className='breadCrumbs__item'>
                 <CategoryTitle/>
