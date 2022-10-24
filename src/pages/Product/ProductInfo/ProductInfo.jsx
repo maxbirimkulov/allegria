@@ -1,7 +1,7 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
 const ProductInfo = ({product}) => {
-    const {i, i18n} = useTranslation()
+    const {t, i18n} = useTranslation()
     return (
         <div className="product__info">
             <h2 className="product__title">
@@ -26,6 +26,19 @@ const ProductInfo = ({product}) => {
                     ))
                 }
             </ul>
+            <div className="product__btns">
+                <div>
+                    <button className="product__btn product__btn_cart">
+                        {t("product.btn1")}
+                    </button>
+                </div>
+              <div>
+                  <button className="product__btn product__btn_buy">
+                      {t("product.btn2")}
+                  </button>
+              </div>
+
+            </div>
         </div>
     );
 };

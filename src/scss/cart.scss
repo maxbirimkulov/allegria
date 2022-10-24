@@ -1,0 +1,31 @@
+.cart {
+  text-align: center;
+  padding-top: 45px;
+  &__title {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0F303F;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #254A5A;
+    margin-bottom: 20px;
+  }
+  &__img {
+    margin: 75px 0 44px;
+  }
+  &__btn {
+    padding: 15px 19px;
+    background: #0F303F;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #EAE9E8;
+  }
+}

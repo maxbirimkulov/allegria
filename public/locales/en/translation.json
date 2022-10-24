@@ -34,6 +34,15 @@
     "size": "Size",
     "reset": "Reset"
   },
+  "cart": {
+    "title": "Your cart is empty",
+    "text": "Add something to save time and make <br/> shopping even more enjoyable.",
+    "btn": "Go to catalog"
+  },
+  "product": {
+    "btn1": "add to cart",
+    "btn2": " buy in one click"
+  },
   "footer": {
     "title": "STAY UPDATED",
     "link1": "About",

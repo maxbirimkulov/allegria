@@ -7,7 +7,7 @@ const Begin = () => {
     return (
         <section className="begin">
 
-            {/*<BeginSlide/>*/}
+            <BeginSlide/>
         </section>
     );
 };

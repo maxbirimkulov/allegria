@@ -2,7 +2,6 @@
   &__row {
     display: flex;
     justify-content: center;
-    column-gap: 36px;
     margin-top: 20px;
   }
   &__slide {
@@ -52,6 +51,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid #0F303F;
+    }
     &_null {
       background: #EAE9E8;
       width: 35px;
@@ -64,6 +67,27 @@
       align-items: center;
     }
   }
+  &__btns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__btn {
+    width: 280px;
+    padding: 14px 21px;
+    border: 1px solid #0F303F;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0F303F;
+    cursor: pointer;
+    &_buy {
+      background: #0F303F;
+      color: #EAE9E8;
+    }
+  }
+
 }
 
 .mySwiper2 {
