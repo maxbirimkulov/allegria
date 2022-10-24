@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
+import {Link} from "react-router-dom";
 
 
 const Collection = () => {
@@ -16,9 +17,9 @@ const Collection = () => {
                         Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem
                         ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip
                     </p>
-                    <a href="#" className="collection__left-link">
+                    <Link to={'/catalog'} className="collection__left-link">
                         {t("collection.link")}
-                    </a>
+                    </Link>
                 </div>
                 <div className="collection__right">
                     <div className="collection__right-box">
