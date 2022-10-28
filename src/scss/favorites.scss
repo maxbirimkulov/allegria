@@ -1,0 +1,17 @@
+.favorites{
+  padding-top: 45px;
+
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  &__card{
+    display: flex;
+    width: calc(50% - 25px);
+    column-gap: 25px;
+  }
+  &__img{
+    width: 30%;
+  }
+}
