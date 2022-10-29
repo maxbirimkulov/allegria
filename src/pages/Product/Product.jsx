@@ -12,10 +12,12 @@ const Product = () => {
     const params = useParams()
 
 
+
     useEffect(() => {
         axios(`http://localhost:4444/catalog/${params.id}`)
             .then(({data}) => setProduct(data))
     }, [])
+    console.log(product)
 
     if (JSON.stringify(product) === '{}') {
         return <h2>...Loading</h2>

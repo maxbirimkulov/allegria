@@ -10,8 +10,28 @@
     display: flex;
     width: calc(50% - 25px);
     column-gap: 25px;
+    &-info {
+      width: 60%;
+    }
+    &-count {
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 5px;
+      margin-top: 15px;
+      span {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
   }
   &__img{
-    width: 30%;
+    width: 40%;
   }
 }
