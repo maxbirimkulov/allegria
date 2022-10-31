@@ -3633,11 +3633,31 @@
         "./catalog/sweatshirts/nike9.webp"
       ],
       "sizes": [
-        {"id": 1, "size": "S", "inStock": 3},
-        {"id": 2, "size": "M", "inStock": 2},
-        {"id": 3, "size": "L", "inStock": 4},
-        {"id": 4, "size": "XL", "inStock": 2},
-        {"id": 5, "size": "XXL", "inStock": 0}
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 3
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 2
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 4
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 0
+        }
       ],
       "review": [],
       "brand": "Nike",
@@ -3654,11 +3674,31 @@
         "./catalog/sweatshirts/nike12.webp"
       ],
       "sizes": [
-        {"id": 1, "size": "S", "inStock": 5},
-        {"id": 2, "size": "M", "inStock": 2},
-        {"id": 3, "size": "L", "inStock": 0},
-        {"id": 4, "size": "XL", "inStock": 2},
-        {"id": 5, "size": "XXL", "inStock": 5}
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 5
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 2
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 0
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 5
+        }
       ],
       "review": [],
       "brand": "Nike",
@@ -3675,11 +3715,31 @@
         "./catalog/sweatshirts/nike15.webp"
       ],
       "sizes": [
-        {"id": 1, "size": "S", "inStock": 5},
-        {"id": 2, "size": "M", "inStock": 2},
-        {"id": 3, "size": "L", "inStock": 4},
-        {"id": 4, "size": "XL", "inStock": 2},
-        {"id": 5, "size": "XXL", "inStock": 0}
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 5
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 2
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 4
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 0
+        }
       ],
       "review": [],
       "brand": "Nike",
@@ -3696,11 +3756,31 @@
         "./catalog/sweatshirts/nike18.webp"
       ],
       "sizes": [
-        {"id": 1, "size": "S", "inStock": 5},
-        {"id": 2, "size": "M", "inStock": 2},
-        {"id": 3, "size": "L", "inStock": 4},
-        {"id": 4, "size": "XL", "inStock": 2},
-        {"id": 5, "size": "XXL", "inStock": 0}
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 5
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 2
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 4
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 0
+        }
       ],
       "review": [],
       "brand": "Nike",
@@ -3717,11 +3797,31 @@
         "./catalog/sweatshirts/nike21.webp"
       ],
       "sizes": [
-        {"id": 1, "size": "S", "inStock": 5},
-        {"id": 2, "size": "M", "inStock": 2},
-        {"id": 3, "size": "L", "inStock": 4},
-        {"id": 4, "size": "XL", "inStock": 2},
-        {"id": 5, "size": "XXL", "inStock": 0}
+        {
+          "id": 1,
+          "size": "S",
+          "inStock": 5
+        },
+        {
+          "id": 2,
+          "size": "M",
+          "inStock": 2
+        },
+        {
+          "id": 3,
+          "size": "L",
+          "inStock": 4
+        },
+        {
+          "id": 4,
+          "size": "XL",
+          "inStock": 2
+        },
+        {
+          "id": 5,
+          "size": "XXL",
+          "inStock": 0
+        }
       ],
       "review": [],
       "brand": "Nike",
@@ -3975,7 +4075,7 @@
     },
     {
       "id": 100,
-      "title": "Nike Green-s" ,
+      "title": "Nike Green-s",
       "price": 250,
       "category": "sweatshirts",
       "img": [
@@ -4015,54 +4115,550 @@
       "gender": "woman"
     }
   ],
-  "brands" : [
+  "brands": [
     {
       "id": 1,
       "category": "shoes",
       "gender": "men",
-      "brand": ["Nike", "Lacoste", "New Balance" ]
+      "brand": [
+        "Nike",
+        "Lacoste",
+        "New Balance"
+      ]
     },
     {
       "id": 2,
       "category": "shoes",
       "gender": "woman",
-      "brand": ["Nike", "DG","Adidas" ]
+      "brand": [
+        "Nike",
+        "DG",
+        "Adidas"
+      ]
     },
     {
       "id": 3,
       "category": "t-short",
       "gender": "men",
-      "brand": ["Polo", "Lacoste", "Hugo Boss", "DG", "Nike","Potter" ]
+      "brand": [
+        "Polo",
+        "Lacoste",
+        "Hugo Boss",
+        "DG",
+        "Nike",
+        "Potter"
+      ]
     },
     {
       "id": 4,
       "category": "t-short",
       "gender": "woman",
-      "brand": [ "Nike","Celine","Balenciaga","Loewe","TB","Prada" ]
+      "brand": [
+        "Nike",
+        "Celine",
+        "Balenciaga",
+        "Loewe",
+        "TB",
+        "Prada"
+      ]
     },
     {
       "id": 5,
       "category": "pants",
       "gender": "men",
-      "brand": ["zara", "levis",  "Nike" ]
+      "brand": [
+        "zara",
+        "levis",
+        "Nike"
+      ]
     },
     {
       "id": 6,
       "category": "pants",
       "gender": "woman",
-      "brand": ["zara", "levis",  "Nike" ]
+      "brand": [
+        "zara",
+        "levis",
+        "Nike"
+      ]
     },
     {
       "id": 7,
       "category": "sweatshirts",
       "gender": "men",
-      "brand": ["NASA", "MOST",  "Gucci", "Nike" ]
+      "brand": [
+        "NASA",
+        "MOST",
+        "Gucci",
+        "Nike"
+      ]
     },
     {
       "id": 8,
       "category": "sweatshirts",
       "gender": "woman",
-      "brand": ["A&J",   "Nike" ]
+      "brand": [
+        "A&J",
+        "Nike"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "name": "Муслим",
+      "surname": "Магеза",
+      "email": "muslim007@mail.ru",
+      "phone": "0220257151",
+      "address": "bishkek , vostok 5 ,dom 2,  kv 5",
+      "pay": "cash",
+      "data": [
+        {
+          "id": 16,
+          "title": "Celine",
+          "price": 11,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort16.jpg",
+            "./catalog/Tshorts/tshort17.jpg",
+            "./catalog/Tshorts/tshort18.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 3
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 0
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "Celine",
+          "gender": "woman",
+          "size": "M",
+          "count": 2
+        },
+        {
+          "id": 16,
+          "title": "Celine",
+          "price": 11,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort16.jpg",
+            "./catalog/Tshorts/tshort17.jpg",
+            "./catalog/Tshorts/tshort18.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 3
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 0
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "Celine",
+          "gender": "woman",
+          "size": "XL",
+          "count": 1
+        },
+        {
+          "id": 16,
+          "title": "Celine",
+          "price": 11,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort16.jpg",
+            "./catalog/Tshorts/tshort17.jpg",
+            "./catalog/Tshorts/tshort18.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 3
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 0
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "Celine",
+          "gender": "woman",
+          "size": "S",
+          "count": 1
+        },
+        {
+          "id": 11,
+          "title": "Classic Tshort",
+          "price": 17,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort1.jpg",
+            "./catalog/Tshorts/tshort2.jpg",
+            "./catalog/Tshorts/tshort3.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 3
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 0
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 0
+            }
+          ],
+          "review": [],
+          "brand": "Potter",
+          "gender": "men",
+          "size": "M",
+          "count": 1
+        },
+        {
+          "id": 11,
+          "title": "Classic Tshort",
+          "price": 17,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort1.jpg",
+            "./catalog/Tshorts/tshort2.jpg",
+            "./catalog/Tshorts/tshort3.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 3
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 0
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 0
+            }
+          ],
+          "review": [],
+          "brand": "Potter",
+          "gender": "men",
+          "size": "XL",
+          "count": 1
+        },
+        {
+          "id": 11,
+          "title": "Classic Tshort",
+          "price": 17,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort1.jpg",
+            "./catalog/Tshorts/tshort2.jpg",
+            "./catalog/Tshorts/tshort3.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 3
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 0
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 0
+            }
+          ],
+          "review": [],
+          "brand": "Potter",
+          "gender": "men",
+          "size": "S",
+          "count": 2
+        }
+      ],
+      "allPrice": 112,
+      "id": 1
+    },
+    {
+      "name": "Nursultan",
+      "surname": "Mustafaev",
+      "email": "nurs008@mail.ru",
+      "phone": "0705007008",
+      "address": "Bishkek , Vefa Center, kv 18",
+      "pay": "card",
+      "data": [
+        {
+          "id": 12,
+          "title": "Polo",
+          "price": 15,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort4.jpg",
+            "./catalog/Tshorts/tshort5.jpg",
+            "./catalog/Tshorts/tshort6.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 0
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 1
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "Polo",
+          "gender": "men",
+          "size": "M",
+          "count": 1
+        },
+        {
+          "id": 12,
+          "title": "Polo",
+          "price": 15,
+          "category": "t-short",
+          "img": [
+            "./catalog/Tshorts/tshort4.jpg",
+            "./catalog/Tshorts/tshort5.jpg",
+            "./catalog/Tshorts/tshort6.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": "S",
+              "inStock": 0
+            },
+            {
+              "id": 2,
+              "size": "M",
+              "inStock": 4
+            },
+            {
+              "id": 3,
+              "size": "L",
+              "inStock": 1
+            },
+            {
+              "id": 4,
+              "size": "XL",
+              "inStock": 2
+            },
+            {
+              "id": 5,
+              "size": "XXL",
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "Polo",
+          "gender": "men",
+          "size": "XXL",
+          "count": 1
+        },
+        {
+          "id": 21,
+          "title": "Pant ZARA",
+          "price": 80,
+          "category": "pants",
+          "img": [
+            "./catalog/pant/pant1.jpg",
+            "./catalog/pant/pant2.jpg",
+            "./catalog/pant/pant3.jpg",
+            "./catalog/pant/pant4.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": 34,
+              "inStock": 5
+            },
+            {
+              "id": 2,
+              "size": 36,
+              "inStock": 3
+            },
+            {
+              "id": 3,
+              "size": 38,
+              "inStock": 7
+            },
+            {
+              "id": 4,
+              "size": 40,
+              "inStock": 0
+            },
+            {
+              "id": 5,
+              "size": 42,
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "zara",
+          "gender": "men",
+          "size": 36,
+          "count": 1
+        },
+        {
+          "id": 21,
+          "title": "Pant ZARA",
+          "price": 80,
+          "category": "pants",
+          "img": [
+            "./catalog/pant/pant1.jpg",
+            "./catalog/pant/pant2.jpg",
+            "./catalog/pant/pant3.jpg",
+            "./catalog/pant/pant4.jpg"
+          ],
+          "sizes": [
+            {
+              "id": 1,
+              "size": 34,
+              "inStock": 5
+            },
+            {
+              "id": 2,
+              "size": 36,
+              "inStock": 3
+            },
+            {
+              "id": 3,
+              "size": 38,
+              "inStock": 7
+            },
+            {
+              "id": 4,
+              "size": 40,
+              "inStock": 0
+            },
+            {
+              "id": 5,
+              "size": 42,
+              "inStock": 5
+            }
+          ],
+          "review": [],
+          "brand": "zara",
+          "gender": "men",
+          "size": 42,
+          "count": 1
+        }
+      ],
+      "allPrice": 190,
+      "id": 2
     }
   ]
 }

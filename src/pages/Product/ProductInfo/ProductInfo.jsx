@@ -43,7 +43,7 @@ const ProductInfo = ({product}) => {
             <div className="product__btns">
                 <div>
                     <button className="product__btn product__btn_cart" onClick={() => {
-                        if (size.length) {
+                        if (size) {
                             setProductForCarts({...product, size})
                         } else {
                             alert('Выберите размер')
